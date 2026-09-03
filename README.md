@@ -6,10 +6,10 @@ Independent AI Systems Research. Founder, Simone Systems Research.
 
 | Project | Research question | Status |
 |---|---|---|
-| [SEED](https://github.com/thisisntjon/seed-protocol) | How do we distinguish agent activity from verified progress? | HYPOTHESIS (C-004) · instrument validated · case study author-run |
-| [The Council](https://github.com/thisisntjon/thecouncil) | Can heterogeneous models independently verify one another's claims? | PUBLIC working system |
+| [SEED](https://github.com/thisisntjon/seed-protocol) | How do we distinguish agent activity from verified progress? | HYPOTHESIS (C-004) · INSTRUMENT VALIDATED · AUTHOR-RUN case study |
+| [The Council](https://github.com/thisisntjon/thecouncil) | Can heterogeneous models independently verify one another's claims better than peer review alone? | PUBLIC working system |
 | [BigBoss](https://github.com/thisisntjon/bigboss-approval-plane) | How should humans retain authority over autonomous coding agents? | WORKING MVP |
-| [The Bus](https://github.com/thisisntjon/thebus) | What happens when the original architecture fails prior-art review? | NEGATIVE RESULT · retired |
+| [The Bus](https://github.com/thisisntjon/thebus) | What happens when the original architecture fails prior-art review? | NEGATIVE RESULT · RETIRED |
 | [Godot AI Methodology](https://github.com/thisisntjon/godot-ai-methodology) | What software architecture makes AI-assisted development safer and more verifiable? | PUBLIC methodology |
 
 **Measured so far.** An author-run census of 1,979 PR-linked commits in a single-operator agent fleet found 43.2% docs-only and 2 of 80 sampled PRs changing the playing agent. Composition and identity, not a causal claim. [Research note](https://simoneresearch.com/blog/throughput-is-not-progress/) · [dataset](https://github.com/thisisntjon/seed-protocol/tree/main/workflow/research/2026-08-24-pr-case-study/artifacts)
