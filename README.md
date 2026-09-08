@@ -1,34 +1,21 @@
 # Jonathan Simone
 
-Independent AI Systems Research. Founder, Simone Systems Research.
+Independent AI researcher and developer. Founder of [Simone Systems Research](https://simoneresearch.com).
 
-> I study how autonomous AI systems coordinate, verify results, preserve human authority, and convert compute into independently verified progress.
+I build agent tools, test ideas through experiments and competitions, and share the code and findings that emerge. My work connects strategic gameplay, agent coordination, research memory, and human control.
 
-| Project | Research question | Status |
-|---|---|---|
-| [PTCG Lab](https://github.com/thisisntjon/poketcg-research) | Can a fleet of AI agents make a policy measurably stronger, and can its own evidence be trusted while it tries? | PUBLIC · AUTHOR-RUN · NEGATIVE RESULT on strength |
-| [SEED](https://github.com/thisisntjon/seed-protocol) | How do we distinguish agent activity from verified progress? | HYPOTHESIS (C-004) · INSTRUMENT VALIDATED · AUTHOR-RUN case study |
-| [The Council](https://github.com/thisisntjon/thecouncil) | Can heterogeneous models independently verify one another's claims better than peer review alone? | PUBLIC working system |
-| [BigBoss](https://github.com/thisisntjon/bigboss-approval-plane) | How should humans retain authority over autonomous coding agents? | WORKING MVP |
-| [The Bus](https://github.com/thisisntjon/thebus) | What happens when the original architecture fails prior-art review? | NEGATIVE RESULT · RETIRED |
-| [Godot AI Methodology](https://github.com/thisisntjon/godot-ai-methodology) | What software architecture makes AI-assisted development safer and more verifiable? | PUBLIC methodology |
+## Selected work
 
-**Measured so far.** Seven weeks of multi-vendor agent research on the Kaggle Pokémon TCG AI Battle benchmark produced one scoped positive, and an **8,400-game** panel across seven fresh opponent implementations then showed how narrow it was. The gain lives in **two of the seven** cells, both carrying the targeted archetype: **+20.42** and **+18.75** points. The other five average **−0.47 points [−2.64, +1.71]**. Scoring a win 1, a draw ½ and a loss 0. The scope is the finding, and every figure in this paragraph recomputes from [the published rows](https://github.com/thisisntjon/poketcg-research/blob/main/workflow/research/2026-09-03-strike3-rows.csv). The report's development-panel headline of +7.82 points does **not**: one of its three pooled comparisons is not in the public data, and [the bridge is written out](https://github.com/thisisntjon/poketcg-research/blob/main/docs/EVIDENCE-MAP.md#if-you-recompute-the-headline-you-will-get-a-different-number-here-is-why) rather than papered over. [Report](https://github.com/thisisntjon/poketcg-research/blob/main/docs/STRATEGY-WRITEUP.md)
+- **[Pokémon TCG research](https://github.com/thisisntjon/poketcg-research):** implemented learning components and a separately tested Lucario counter. The combined counter gained roughly 19–20 game-score percentage points against two tested Alakazam implementations; broader benefit remains unresolved. The report distinguishes my experimental work from the credited public competition submission.
+- **[The Council](https://github.com/thisisntjon/thecouncil):** a multi-provider application for answers, critique, claim checking, and synthesis, with inspectable examples and an offline fixture.
+- **[BigBoss](https://github.com/thisisntjon/bigboss-approval-plane):** a local approval dashboard and persistent decision record for AI coding workflows. A personal working MVP.
 
-Separately, an author-run census of **1,979** PR-linked commits in a single-operator agent fleet found **43.2%** docs-only and **2 of 80** sampled PRs changing the playing agent. Composition and identity, not a causal claim. [Research note](https://simoneresearch.com/blog/throughput-is-not-progress/) · [dataset](https://github.com/thisisntjon/seed-protocol/tree/main/workflow/research/2026-08-24-pr-case-study/artifacts)
+## Research in progress
 
-**Not claimed.** The fielded competition agent is a public Apache-2.0 community kernel used with no modifications. I did not write it and I do not claim it; it is credited in [NOTICE](https://github.com/thisisntjon/poketcg-research/blob/main/NOTICE). A policy trained on my own data improved held-out imitation loss and then won **23 of 1,200** decided games against that kernel. It was never fielded.
+I’m continuing toward systems that turn practice and useful discoveries into retained improvements. [SEED](https://github.com/thisisntjon/seed-protocol) explores measurement and checking methods. [Godot AI Methodology](https://github.com/thisisntjon/godot-ai-methodology) applies those questions to game-code architecture. [The Bus](https://github.com/thisisntjon/thebus) preserves a retired coordination exploration and its design history.
 
-**Retained failures.** The Bus was retired after a prior-art sweep invalidated 17 of its assumptions; the retraction ledger is public. Both [seed-protocol](https://github.com/thisisntjon/seed-protocol/blob/main/workflow/canon/RETRACTIONS.md) and [poketcg-research](https://github.com/thisisntjon/poketcg-research/blob/main/workflow/canon/RETRACTIONS.md) keep retraction registers of numbers that were published and are now known false, with the value to use instead.
+AI agents assist my research, implementation, and writing. I direct the questions and work, inspect the evidence, and explain my contributions and upstream dependencies in the project reports.
 
-**Verify some of it yourself.** No engine, no network, no credentials:
+I’m interested in AI engineering opportunities, focused research support, and practical collaborations.
 
-```bash
-git clone https://github.com/thisisntjon/poketcg-research
-cd poketcg-research
-python -X utf8 scripts/prior_art.py "Xerosic" --limit 2
-```
-
-The expected output, its exit code, and what it does *not* establish are written down in [REPRODUCING.md](https://github.com/thisisntjon/poketcg-research/blob/main/docs/REPRODUCING.md).
-
-Site: [simoneresearch.com](https://simoneresearch.com) · Contact: jon@simoneresearch.com
+[Website](https://simoneresearch.com) · [Research writing](https://simoneresearch.com/blog/) · [Contact](mailto:jon@simoneresearch.com)
