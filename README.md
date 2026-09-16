@@ -8,7 +8,7 @@ I build agent tools, test ideas through experiments and competitions, and share 
 
 - **[Pokémon TCG research](https://github.com/thisisntjon/poketcg-research):** implemented learning components and a separately tested Lucario counter. The combined counter gained roughly 19–20 game-score percentage points against two tested Alakazam implementations; broader benefit remains unresolved. The report distinguishes my experimental work from the credited public competition submission.
 - **[The Council](https://github.com/thisisntjon/thecouncil):** a multi-provider application for answers, critique, claim checking, and synthesis, with inspectable examples and an offline fixture.
-- **[BigBoss](https://github.com/thisisntjon/bigboss-approval-plane):** a local approval dashboard and persistent decision record for AI coding workflows. A personal working MVP.
+- **[BigBoss](https://github.com/thisisntjon/bigboss-approval-plane):** a local approval dashboard and persistent decision record for AI coding workflows. A personal working MVP, tagged [v0.1.0](https://github.com/thisisntjon/bigboss-approval-plane/releases/tag/v0.1.0): its suite runs in CI on Ubuntu and Windows against Python 3.12 and 3.13 with no vendor keys, [399 passing and none skipped](https://github.com/thisisntjon/bigboss-approval-plane/actions/runs/35043376854). That is author-run automation, not independent reproduction.
 
 ## Research in progress
 
